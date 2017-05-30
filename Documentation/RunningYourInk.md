@@ -72,7 +72,7 @@ From there, you make calls to the story in a loop. There are two repeating stage
 
 To save the state of your story within your game, call:
 
-`string savedJson = _inkStory.state.ToJson();`
+`string savedJson = _inkStory.state.toJson();`
 
 ...and then to load it again:
 
